@@ -1,0 +1,40 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "name": "Verify you are puppy!!! :3",
+    "description": "Makes CAPTCHAs say you're a puppy instead of a human",
+    "version": "1.0",
+    "manifest_version": 3,
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "puppify@suprstarrd.com",
+            "strict_min_version": "78.0"
+        },
+        "gecko_android": {
+            "strict_min_version": "79.0"
+        }
+    },
+    "minimum_chrome_version": "88",
+    "content_scripts": [
+        {
+            "js": ["puppify.js"],
+            "all_frames": true,
+            "matches": [
+                "http://newassets.hcaptcha.com/captcha/v1/*",
+                "https://newassets.hcaptcha.com/captcha/v1/*",
+                "http://assets.hcaptcha.com/captcha/v1/*",
+                "https://assets.hcaptcha.com/captcha/v1/*",
+                "http://assets.hcaptcha.com.cn/captcha/v1/*",
+                "https://assets.hcaptcha.com.cn/captcha/v1/*",
+                "http://challenges.cloudflare.com/cdn-cgi/challenge-platform/*",
+                "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/*",
+                "http://challenges.cloudflare-cn.com/cdn-cgi/challenge-platform/*",
+                "https://challenges.cloudflare-cn.com/cdn-cgi/challenge-platform/*",
+                "<all_urls>"
+            ]
+        }
+    ],
+    "icons": {
+        "512": "icons/512.png"
+    }
+}
