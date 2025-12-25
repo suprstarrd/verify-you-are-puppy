@@ -1,0 +1,310 @@
+{
+    "extName": {
+        "message": "Verify you are puppy!!! :3",
+        "description": "Extension name"
+    },
+    "extDesc": {
+        "message": "Makes CAPTCHAs say you're something other than a human.",
+        "description": "Extension description"
+    },
+    "VerifyYouAreHumanCloudflare": {
+        "message": "Verify you are human",
+        "description": "Text from Cloudflare Turnstile saying 'Verify you are human'"
+    },
+    "VerifyYouArePuppyCloudflare": {
+        "message": "Verify you are puppy",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are puppy'"
+    },
+    "VerifyYouAreAPuppyCloudflare": {
+        "message": "Verify you are a puppy",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are a puppy'"
+    },
+    "VerifyYouArePuppyColonThreeCloudflare": {
+        "message": "Verify you are puppy!!! :3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are a puppy!!! :3'"
+    },
+    "VerifyYouAreAPuppyColonThreeCloudflare": {
+        "message": "Verify you are a puppy!!! :3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are a puppy!!! :3'"
+    },
+    "VerifyYouAreKittyCloudflare": {
+        "message": "Verify you are kitty",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are kitty'"
+    },
+    "VerifyYouAreAKittyCloudflare": {
+        "message": "Verify you are a kitty",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are a kitty'"
+    },
+    "VerifyYouAreKittyColonThreeCloudflare": {
+        "message": "Verify you are kitty!!! :3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are kitty!!! :3'"
+    },
+    "VerifyYouAreAKittyColonThreeCloudflare": {
+        "message": "Verify you are a kitty!!! :3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are a kitty!!! :3'"
+    },
+    "VerifyYouAreRobotCloudflare": {
+        "message": "Verify you are robot",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are robot'"
+    },
+    "VerifyYouAreRobotColonThreeCloudflare": {
+        "message": "Verify you are robot!!! :3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are robot!!! :3'"
+    },
+    "VerifyYouAreARobotCloudflare": {
+        "message": "Verify you are a robot",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are a robot'"
+    },
+    "VerifyYouAreARobotColonThreeCloudflare": {
+        "message": "Verify you are a robot!!! :3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Verify you are a robot!!! :3'"
+    },
+    "SuccessCloudflare": {
+        "message": "Success!",
+        "description": "Text from Cloudflare Turnstile saying 'Success!'"
+    },
+    "GoodPuppyHeartCloudflare": {
+        "message": "Good puppy <3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good puppy <3'"
+    },
+    "GoodPuppyCloudflare": {
+        "message": "Good puppy!",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good puppy!'"
+    },
+    "GoodKittyHeartCloudflare": {
+        "message": "Good kitty <3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good kitty <3'"
+    },
+    "GoodKittyCloudflare": {
+        "message": "Good kitty!",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good kitty!'"
+    },
+    "GoodRobotHeartCloudflare": {
+        "message": "Good robot <3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good robot <3'"
+    },
+    "GoodRobotCloudflare": {
+        "message": "Good robot!",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good robot!'"
+    },
+    "GoodBoyHeartCloudflare": {
+        "message": "Good boy <3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good boy <3'"
+    },
+    "GoodBoyCloudflare": {
+        "message": "Good boy!",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good boy!'"
+    },
+    "GoodGirlHeartCloudflare": {
+        "message": "Good girl <3",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good girl <3'"
+    },
+    "GoodGirlCloudflare": {
+        "message": "Good girl!",
+        "description": "Text modified from Cloudflare Turnstile saying 'Good girl!'"
+    },
+    "IAmHumanHCaptcha": {
+        "message": "I am human",
+        "description": "Text from HCaptcha saying 'I am human'"
+    },
+    "IAmPuppyHCaptcha": {
+        "message": "I am puppy",
+        "description": "Text modified from HCaptcha saying 'I am puppy'"
+    },
+    "IAmAPuppyHCaptcha": {
+        "message": "I am a puppy",
+        "description": "Text modified from HCaptcha saying 'I am a puppy'"
+    },
+    "IAmKittyHCaptcha": {
+        "message": "I am kitty",
+        "description": "Text modified from HCaptcha saying 'I am kitty'"
+    },
+    "IAmAKittyHCaptcha": {
+        "message": "I am a kitty",
+        "description": "Text modified from HCaptcha saying 'I am a kitty'"
+    },
+    "IAmRobotHCaptcha": {
+        "message": "I am robot",
+        "description": "Text modified from HCaptcha saying 'I am robot'"
+    },
+    "IAmARobotHCaptcha": {
+        "message": "I am a robot",
+        "description": "Text modified from HCaptcha saying 'I am a robot'"
+    },
+    "IAmPuppyColonThreeHCaptcha": {
+        "message": "I am puppy!!! :3",
+        "description": "Text modified from HCaptcha saying 'I am puppy!!! :3'"
+    },
+    "IAmAPuppyColonThreeHCaptcha": {
+        "message": "I am a puppy!!! :3",
+        "description": "Text modified from HCaptcha saying 'I am a puppy!!! :3'"
+    },
+    "IAmKittyColonThreeHCaptcha": {
+        "message": "I am kitty!!! :3",
+        "description": "Text modified from HCaptcha saying 'I am kitty!!! :3'"
+    },
+    "IAmAKittyColonThreeHCaptcha": {
+        "message": "I am a kitty!!! :3",
+        "description": "Text modified from HCaptcha saying 'I am a kitty!!! :3'"
+    },
+    "IAmRobotColonThreeHCaptcha": {
+        "message": "I am robot!!! :3",
+        "description": "Text modified from HCaptcha saying 'I am robot!!! :3'"
+    },
+    "IAmARobotColonThreeHCaptcha": {
+        "message": "I am a robot!!! :3",
+        "description": "Text modified from HCaptcha saying 'I am a robot!!! :3'"
+    },
+    "ImHumanLemin": {
+        "message": "I'm Human",
+        "description": "Text from Lemin Captcha saying 'I'm Human'"
+    },
+    "ImPuppyLemin": {
+        "message": "I'm Puppy",
+        "description": "Text modified from Lemin Captcha saying 'I'm Puppy'"
+    },
+    "ImAPuppyLemin": {
+        "message": "I'm a Puppy",
+        "description": "Text modified from Lemin Captcha saying 'I'm a Puppy'"
+    },
+    "ImKittyLemin": {
+        "message": "I'm Kitty",
+        "description": "Text modified from Lemin Captcha saying 'I'm Kitty'"
+    },
+    "ImAKittyLemin": {
+        "message": "I'm a Kitty",
+        "description": "Text modified from Lemin Captcha saying 'I'm a Kitty'"
+    },
+    "ImPuppyColonThreeLemin": {
+        "message": "I'm Puppy!!! :3",
+        "description": "Text modified from Lemin Captcha saying 'I'm Puppy!!! :3'"
+    },
+    "ImAPuppyColonThreeLemin": {
+        "message": "I'm a Puppy!!! :3",
+        "description": "Text modified from Lemin Captcha saying 'I'm a Puppy!!! :3'"
+    },
+    "ImKittyColonThreeLemin": {
+        "message": "I'm Kitty!!! :3",
+        "description": "Text modified from Lemin Captcha saying 'I'm Kitty!!! :3'"
+    },
+    "ImAKittyColonThreeLemin": {
+        "message": "I'm a Kitty!!! :3",
+        "description": "Text modified from Lemin Captcha saying 'I'm a Kitty!!! :3'"
+    },
+    "ImRobotLemin": {
+        "message": "I'm Robot",
+        "description": "Text modified from Lemin Captcha saying 'I'm Robot'"
+    },
+    "ImARobotLemin": {
+        "message": "I'm A Robot",
+        "description": "Text modified from Lemin Captcha saying 'I'm A Robot'"
+    },
+    "ImRobotColonThreeLemin": {
+        "message": "I'm Robot!!! :3",
+        "description": "Text modified from Lemin Captcha saying 'I'm Robot!!! :3'"
+    },
+    "ImARobotColonThreeLemin": {
+        "message": "I'm A Robot!!! :3",
+        "description": "Text modified from Lemin Captcha saying 'I'm A Robot!!! :3'"
+    },
+    "IAmHumanTencent": {
+        "message": "I am human",
+        "description": "Text from Tencent Cloud's Captcha saying 'I am human'"
+    },
+    "IAmPuppyColonThreeTencent": {
+        "message": "I am puppy!!! :3",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am puppy!!! :3'"
+    },
+    "IAmAPuppyColonThreeTencent": {
+        "message": "I am a puppy!!! :3",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am a puppy!!! :3'"
+    },
+    "IAmKittyColonThreeTencent": {
+        "message": "I am kitty!!! :3",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am kitty!!! :3'"
+    },
+    "IAmAKittyColonThreeTencent": {
+        "message": "I am a kitty!!! :3",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am a kitty!!! :3'"
+    },
+    "IAmRobotTencent": {
+        "message": "I am robot",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am robot'"
+    },
+    "IAmRobotColonThreeTencent": {
+        "message": "I am robot!!! :3",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am robot!!! :3'"
+    },
+    "IAmARobotColonThreeTencent": {
+        "message": "I am a robot!!! :3",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am a robot!!! :3'"
+    },
+    "IAmARobotTencent": {
+        "message": "I am a robot",
+        "description": "Text modified from Tencent Cloud's Captcha saying 'I am a robot'"
+    },
+    "Options": {
+        "message": "Options",
+        "description": "Text saying 'Options'"
+    },
+    "MissingPermissions": {
+        "message": "Missing permissions",
+        "description": "Text saying 'Missing permissions'"
+    },
+    "NoscriptError": {
+        "message": "This options page needs JavaScript to function. Sorry.",
+        "description": "Text saying 'This options page needs JavaScript to function. Sorry.' - will be manually added to options page"
+    },
+    "ChooseCaptcha": {
+        "message": "Choose the CAPTCHA services you'd like to enable or disable this extension for:",
+        "description": "Text saying 'Choose the CAPTCHA services you'd like to enable or disable this extension for:'"
+    },
+    "CloudflareTurnstile": {
+        "message": "Cloudflare Turnstile",
+        "description": "Text saying 'Cloudflare Turnstile'"
+    },
+    "HCaptcha": {
+        "message": "hCaptcha",
+        "description": "Text saying 'hCaptcha'"
+    },
+    "LeminCaptcha": {
+        "message": "Lemin Captcha",
+        "description": "Text saying 'Lemin Captcha'"
+    },
+    "TencentCloudCaptcha": {
+        "message": "Tencent Cloud Captcha",
+        "description": "Text saying 'Tencent Cloud Captcha'"
+    },
+    "ChooseAnAnimal": {
+        "message": "Choose an animal:",
+        "description": "Text saying 'Choose an animal:'"
+    },
+    "Puppy": {
+        "message": "Puppy",
+        "description": "Text saying 'Puppy'"
+    },
+    "Kitty": {
+        "message": "Kitty",
+        "description": "Text saying 'Kitty'"
+    },
+    "Robot": {
+        "message": "Robot",
+        "description": "Text saying 'Robot'"
+    },
+    "Human": {
+        "message": "Human",
+        "description": "Text saying 'Human'"
+    },
+    "ChooseAffirmation": {
+        "message": "Choose an affirmation for Cloudflare Turnstile:",
+        "description": "Text saying 'Choose an affirmation for Cloudflare Turnstile:'"
+    },
+    "ColonThree": {
+        "message": ":3?",
+        "description": "Text saying ':3?'"
+    },
+    "GrammaticallyCorrect": {
+        "message": "Grammatically correct?",
+        "description": "Text saying 'Grammatically correct?'"
+    }
+}

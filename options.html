@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Options</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <link rel="icon" type="image/png" href="icons/puppy/512.png" sizes="512x512" />
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+    </style>
+    <script src="scripts/options.js"></script>
+    <link rel="stylesheet" type="text/css" href="options.css">
+  </head>
+  <body>
+    <div id="status">
+      <noscript>
+        <b>This options page needs JavaScript to function. Sorry.</b>
+      </noscript>
+    </div>
+    <div id="options" hidden>
+      <p id="chooseCaptcha">Choose the CAPTCHA services you'd like to enable or disable this extension for:</p>
+      <div>
+        <input type="checkbox" id="turnstile" checked>
+        <img src="icons/providers/cloudflare.png" width="14" title="Cloudflare logo">
+        <label for="turnstile" id="turnstileLabel">Cloudflare Turnstile</label>
+      </div>
+      <div>
+        <input type="checkbox" id="hcaptcha" checked>
+        <img src="icons/providers/hcaptcha.png" width="14" title="hCaptcha logo">
+        <label for="hcaptcha" id="hCaptchaLabel">hCaptcha</label>
+      </div>
+      <div>
+        <input type="checkbox" id="lemin">
+        <img src="icons/providers/lemin.png" width="14" title="Lemin logo">
+        <label for="lemin" id="leminLabel">Lemin Captcha</label>
+      </div>
+      <div>
+        <input type="checkbox" id="tencent">
+        <img src="icons/providers/tencent.png" width="14" title="Tencent Cloud logo">
+        <label for="tencent" id="tencentLabel">Tencent Cloud Captcha</label>
+      </div>
+      <br>
+      <div>
+      <label for="animal" id="animalLabel">Choose an animal:</label>
+      <select id="animal">
+        <option value="puppy" id="puppyLabel" selected>Puppy</option>
+        <option value="kitty" id="kittyLabel">Kitty</option>
+        <option value="robot" id="robotLabel">Robot</option>
+        <option value="human" id="humanLabel">Human</option>
+      </select>
+      </div>
+      <div id="affirmationTurnstile">
+        <label for="affirmation" id="affirmationLabel">Choose an affirmation for Cloudflare Turnstile:</label>
+        <select id="affirmation">
+          <option value="puppy" id="goodPuppyLabel">Good puppy!</option>
+          <option value="puppyHeart" id="goodPuppyHeartLabel" selected>Good puppy &lt;3</option>
+          <option value="kitty" id="goodKittyLabel">Good kitty!</option>
+          <option value="kittyHeart" id="goodKittyHeartLabel">Good kitty &lt;3</option>
+          <option value="robot" id="goodRobotLabel">Good robot!</option>
+          <option value="robotHeart" id="goodRobotHeartLabel">Good robot &lt;3</option>
+          <option value="boy" id="goodBoyLabel">Good boy!</option>
+          <option value="boyHeart" id="goodBoyHeartLabel">Good boy &lt;3</option>
+          <option value="girl" id="goodGirlLabel">Good girl!</option>
+          <option value="girlHeart" id="goodGirlHeartLabel">Good girl &lt;3</option>
+          <option value="success" id="successLabel">Success!</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="lemin" id="colonThreeLabel">:3?</label>
+        <input type="checkbox" id="colonThree">
+      </div>
+      <div>
+        <label for="grammaticallyCorrect" id="grammaticallyCorrectLabel">Grammatically correct?</label>
+        <input type="checkbox" id="grammaticallyCorrect">
+      </div>
+    </div>
+  </body>
+</html>

@@ -3,7 +3,7 @@
     "description": "__MSG_extDesc__",
     "default_locale": "en",
     "version": "1.0",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "browser_specific_settings": {
         "gecko": {
             "id": "puppify@suprstarrd.com",
@@ -13,10 +13,11 @@
             "strict_min_version": "79.0"
         }
     },
-    "minimum_chrome_version": "88",
+    "minimum_chrome_version": "87",
     "minimum_opera_version": "74",
     "background": {
-        "service_worker": "background.js"
+        "scripts": [ "background.js" ],
+        "persistent": false
     },
     "web_accessible_resources": [
         {

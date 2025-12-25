@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Missing permissions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <link rel="icon" type="image/png" href="icons/puppy/512.png" sizes="512x512" />
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+    </style>
+    <script src="scripts/missing_permissions.js"></script>
+    <link rel="stylesheet" type="text/css" href="options.css">
+  </head>
+  <body>
+    <div>
+      <!-- <b><img src="icons/providers/cloudflare.png" width="14" title="Cloudflare logo"> Cloudflare Turnstile</b> -->
+      <span>Please press the <b><span id="extensionsIcon"></span> Extensions</b> icon in your toolbar, then select <b><img src="icons/puppy/512.png" class="icon" width="14"> Verify you are puppy!!! :3</b> while on this page to grant the necessary permissions for the extension to work with <span id="providers">the CAPTCHA service(s)</span>.</span>
+      <br><br>
+      <span>Alternatively, you can disable the extension's integrations with the services below and it will no longer need them.</span>
+      <div>
+        <div id="turnstileDiv" hidden>
+          <input type="checkbox" id="turnstile" checked>
+          <img src="icons/providers/cloudflare.png" width="14" title="Cloudflare logo">
+          <label for="turnstile" id="turnstileLabel">Cloudflare Turnstile</label>
+        </div>
+        <div id="hCaptchaDiv" hidden>
+          <input type="checkbox" id="hcaptcha" checked>
+          <img src="icons/providers/hcaptcha.png" width="14" title="hCaptcha logo">
+          <label for="hcaptcha" id="hCaptchaLabel">hCaptcha</label>
+        </div>
+        <div id="leminDiv" hidden>
+          <input type="checkbox" id="lemin">
+          <img src="icons/providers/lemin.png" width="14" title="Lemin logo">
+          <label for="lemin" id="leminLabel">Lemin Captcha</label>
+        </div>
+        <div id="tencentDiv" hidden>
+          <input type="checkbox" id="tencent">
+          <img src="icons/providers/tencent.png" width="14" title="Tencent Cloud logo">
+          <label for="tencent" id="tencentLabel">Tencent Cloud Captcha</label>
+        </div>
+      </div>
+      <br>
+      <div><span>After doing one of the above, this page will automatically close.</span></div>
+    </div>
+    </div>
+  </body>
+</html>
