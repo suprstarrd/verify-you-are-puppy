@@ -1,5 +1,5 @@
 # Verify you are puppy!!! :3
-Makes CAPTCHAs say you're something other than a human. [Inspired by a lovely post on Tumblr.](https://futchdelight.tumblr.com/post/793083249190682624)
+Makes CAPTCHAs say you're something other than a human. [Inspired by a lovely post on Tumblr.](https://analog-delight.tumblr.com/post/793083249190682624)
 
 * Compatible with Cloudflare Turnstile, hCaptcha, Lemin, and Tencent Cloud's Captcha.
     * CAPTCHAs that say "I'm not a robot" or similar are currently not supported - I'll get to those!
