@@ -6,3 +6,6 @@ Makes CAPTCHAs say you're something other than a human. [Inspired by a lovely po
 * Supports being called a puppy, a kitty, and a robot. Customizable in the extension's options menu.
 
 The versioning of this extension ~~follows~~ will follow [Epoch Semantic Versioning](https://antfu.me/posts/epoch-semver).
+
+## AI policy
+This project does not allow AI-generated contributions.
